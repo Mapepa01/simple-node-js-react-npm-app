@@ -9,7 +9,7 @@ pipeline {
             steps {
                 nodejs('Node') {
                 sh 'npm install'
-                sh '-p 3000:3000'
+                
             }
         }
         } 
