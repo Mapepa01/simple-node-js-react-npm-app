@@ -1,8 +1,8 @@
 pipeline {
     agent {
-        node {
+        nodejs {
             
-            args '-p 3000:3000'
+            node '-p 3000:3000'
         }
     }
      environment {
