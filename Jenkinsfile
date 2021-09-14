@@ -9,6 +9,7 @@ pipeline {
             steps {
                 nodejs('Node') {
                 sh 'npm install'
+                     args '-p 3000:3000'
             }
         }
         } 
