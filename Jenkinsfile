@@ -9,8 +9,7 @@ pipeline {
             steps {
                 nodejs('Node') {
                 sh 'npm install'
-                sh 'npm start'    
-                
+        
             }
         }
         } 
